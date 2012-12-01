@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F56EF1861667122500D499A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56EF1851667122500D499A1 /* UIKit.framework */; };
+		F56EF1881667122500D499A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56EF1871667122500D499A1 /* Foundation.framework */; };
+		F56EF18A1667122500D499A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56EF1891667122500D499A1 /* CoreGraphics.framework */; };
+		F56EF1901667122500D499A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F56EF18E1667122500D499A1 /* InfoPlist.strings */; };
+		F56EF1921667122500D499A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F56EF1911667122500D499A1 /* main.m */; };
+		F56EF1961667122500D499A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F56EF1951667122500D499A1 /* AppDelegate.m */; };
+		F56EF1991667122500D499A1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56EF1971667122500D499A1 /* MainStoryboard_iPhone.storyboard */; };
+		F56EF19C1667122500D499A1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56EF19A1667122500D499A1 /* MainStoryboard_iPad.storyboard */; };
+		F56EF19F1667122500D499A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56EF19E1667122500D499A1 /* ViewController.m */; };
+		F56EF1A71667122500D499A1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56EF1A61667122500D499A1 /* SenTestingKit.framework */; };
+		F56EF1A81667122500D499A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56EF1851667122500D499A1 /* UIKit.framework */; };
+		F56EF1A91667122500D499A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56EF1871667122500D499A1 /* Foundation.framework */; };
+		F56EF1B11667122500D499A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F56EF1AF1667122500D499A1 /* InfoPlist.strings */; };
+		F56EF1B41667122500D499A1 /* BillionClicksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F56EF1B31667122500D499A1 /* BillionClicksTests.m */; };
+		F56EF1BE16676AA000D499A1 /* BillionClicks-01.png in Resources */ = {isa = PBXBuildFile; fileRef = F56EF1BD16676AA000D499A1 /* BillionClicks-01.png */; };
+		F56EF1C116676B5000D499A1 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F56EF1C016676B5000D499A1 /* Button.png */; };
+		F56EF1C316676B5D00D499A1 /* Button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F56EF1C216676B5D00D499A1 /* Button_pressed.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F56EF1AA1667122500D499A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F56EF1781667122500D499A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56EF1801667122500D499A1;
+			remoteInfo = BillionClicks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F56EF1811667122500D499A1 /* BillionClicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillionClicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56EF1851667122500D499A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F56EF1871667122500D499A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F56EF1891667122500D499A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F56EF18D1667122500D499A1 /* BillionClicks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BillionClicks-Info.plist"; sourceTree = "<group>"; };
+		F56EF18F1667122500D499A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F56EF1911667122500D499A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F56EF1931667122500D499A1 /* BillionClicks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BillionClicks-Prefix.pch"; sourceTree = "<group>"; };
+		F56EF1941667122500D499A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F56EF1951667122500D499A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F56EF1981667122500D499A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F56EF19B1667122500D499A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F56EF19D1667122500D499A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F56EF19E1667122500D499A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F56EF1A51667122500D499A1 /* BillionClicksTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillionClicksTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56EF1A61667122500D499A1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F56EF1AE1667122500D499A1 /* BillionClicksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BillionClicksTests-Info.plist"; sourceTree = "<group>"; };
+		F56EF1B01667122500D499A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F56EF1B21667122500D499A1 /* BillionClicksTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BillionClicksTests.h; sourceTree = "<group>"; };
+		F56EF1B31667122500D499A1 /* BillionClicksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillionClicksTests.m; sourceTree = "<group>"; };
+		F56EF1BD16676AA000D499A1 /* BillionClicks-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BillionClicks-01.png"; sourceTree = "<group>"; };
+		F56EF1C016676B5000D499A1 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		F56EF1C216676B5D00D499A1 /* Button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_pressed.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F56EF17E1667122500D499A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56EF1861667122500D499A1 /* UIKit.framework in Frameworks */,
+				F56EF1881667122500D499A1 /* Foundation.framework in Frameworks */,
+				F56EF18A1667122500D499A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56EF1A11667122500D499A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56EF1A71667122500D499A1 /* SenTestingKit.framework in Frameworks */,
+				F56EF1A81667122500D499A1 /* UIKit.framework in Frameworks */,
+				F56EF1A91667122500D499A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F56EF1761667122500D499A1 = {
+			isa = PBXGroup;
+			children = (
+				F56EF1BF16676AA800D499A1 /* Resources */,
+				F56EF18B1667122500D499A1 /* BillionClicks */,
+				F56EF1AC1667122500D499A1 /* BillionClicksTests */,
+				F56EF1841667122500D499A1 /* Frameworks */,
+				F56EF1821667122500D499A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F56EF1821667122500D499A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F56EF1811667122500D499A1 /* BillionClicks.app */,
+				F56EF1A51667122500D499A1 /* BillionClicksTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F56EF1841667122500D499A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F56EF1851667122500D499A1 /* UIKit.framework */,
+				F56EF1871667122500D499A1 /* Foundation.framework */,
+				F56EF1891667122500D499A1 /* CoreGraphics.framework */,
+				F56EF1A61667122500D499A1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F56EF18B1667122500D499A1 /* BillionClicks */ = {
+			isa = PBXGroup;
+			children = (
+				F56EF1941667122500D499A1 /* AppDelegate.h */,
+				F56EF1951667122500D499A1 /* AppDelegate.m */,
+				F56EF1971667122500D499A1 /* MainStoryboard_iPhone.storyboard */,
+				F56EF19A1667122500D499A1 /* MainStoryboard_iPad.storyboard */,
+				F56EF19D1667122500D499A1 /* ViewController.h */,
+				F56EF19E1667122500D499A1 /* ViewController.m */,
+				F56EF18C1667122500D499A1 /* Supporting Files */,
+			);
+			path = BillionClicks;
+			sourceTree = "<group>";
+		};
+		F56EF18C1667122500D499A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F56EF18D1667122500D499A1 /* BillionClicks-Info.plist */,
+				F56EF18E1667122500D499A1 /* InfoPlist.strings */,
+				F56EF1911667122500D499A1 /* main.m */,
+				F56EF1931667122500D499A1 /* BillionClicks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F56EF1AC1667122500D499A1 /* BillionClicksTests */ = {
+			isa = PBXGroup;
+			children = (
+				F56EF1B21667122500D499A1 /* BillionClicksTests.h */,
+				F56EF1B31667122500D499A1 /* BillionClicksTests.m */,
+				F56EF1AD1667122500D499A1 /* Supporting Files */,
+			);
+			path = BillionClicksTests;
+			sourceTree = "<group>";
+		};
+		F56EF1AD1667122500D499A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F56EF1AE1667122500D499A1 /* BillionClicksTests-Info.plist */,
+				F56EF1AF1667122500D499A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F56EF1BF16676AA800D499A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F56EF1C216676B5D00D499A1 /* Button_pressed.png */,
+				F56EF1C016676B5000D499A1 /* Button.png */,
+				F56EF1BD16676AA000D499A1 /* BillionClicks-01.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F56EF1801667122500D499A1 /* BillionClicks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56EF1B71667122500D499A1 /* Build configuration list for PBXNativeTarget "BillionClicks" */;
+			buildPhases = (
+				F56EF17D1667122500D499A1 /* Sources */,
+				F56EF17E1667122500D499A1 /* Frameworks */,
+				F56EF17F1667122500D499A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BillionClicks;
+			productName = BillionClicks;
+			productReference = F56EF1811667122500D499A1 /* BillionClicks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F56EF1A41667122500D499A1 /* BillionClicksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56EF1BA1667122500D499A1 /* Build configuration list for PBXNativeTarget "BillionClicksTests" */;
+			buildPhases = (
+				F56EF1A01667122500D499A1 /* Sources */,
+				F56EF1A11667122500D499A1 /* Frameworks */,
+				F56EF1A21667122500D499A1 /* Resources */,
+				F56EF1A31667122500D499A1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56EF1AB1667122500D499A1 /* PBXTargetDependency */,
+			);
+			name = BillionClicksTests;
+			productName = BillionClicksTests;
+			productReference = F56EF1A51667122500D499A1 /* BillionClicksTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F56EF1781667122500D499A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "(kno)Name";
+			};
+			buildConfigurationList = F56EF17B1667122500D499A1 /* Build configuration list for PBXProject "BillionClicks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F56EF1761667122500D499A1;
+			productRefGroup = F56EF1821667122500D499A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F56EF1801667122500D499A1 /* BillionClicks */,
+				F56EF1A41667122500D499A1 /* BillionClicksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F56EF17F1667122500D499A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56EF1901667122500D499A1 /* InfoPlist.strings in Resources */,
+				F56EF1991667122500D499A1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F56EF19C1667122500D499A1 /* MainStoryboard_iPad.storyboard in Resources */,
+				F56EF1BE16676AA000D499A1 /* BillionClicks-01.png in Resources */,
+				F56EF1C116676B5000D499A1 /* Button.png in Resources */,
+				F56EF1C316676B5D00D499A1 /* Button_pressed.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56EF1A21667122500D499A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56EF1B11667122500D499A1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F56EF1A31667122500D499A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F56EF17D1667122500D499A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56EF1921667122500D499A1 /* main.m in Sources */,
+				F56EF1961667122500D499A1 /* AppDelegate.m in Sources */,
+				F56EF19F1667122500D499A1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56EF1A01667122500D499A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56EF1B41667122500D499A1 /* BillionClicksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F56EF1AB1667122500D499A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F56EF1801667122500D499A1 /* BillionClicks */;
+			targetProxy = F56EF1AA1667122500D499A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F56EF18E1667122500D499A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56EF18F1667122500D499A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F56EF1971667122500D499A1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56EF1981667122500D499A1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F56EF19A1667122500D499A1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56EF19B1667122500D499A1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F56EF1AF1667122500D499A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56EF1B01667122500D499A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F56EF1B51667122500D499A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F56EF1B61667122500D499A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F56EF1B81667122500D499A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BillionClicks/BillionClicks-Prefix.pch";
+				INFOPLIST_FILE = "BillionClicks/BillionClicks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F56EF1B91667122500D499A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BillionClicks/BillionClicks-Prefix.pch";
+				INFOPLIST_FILE = "BillionClicks/BillionClicks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F56EF1BB1667122500D499A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BillionClicks.app/BillionClicks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BillionClicks/BillionClicks-Prefix.pch";
+				INFOPLIST_FILE = "BillionClicksTests/BillionClicksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F56EF1BC1667122500D499A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BillionClicks.app/BillionClicks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BillionClicks/BillionClicks-Prefix.pch";
+				INFOPLIST_FILE = "BillionClicksTests/BillionClicksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F56EF17B1667122500D499A1 /* Build configuration list for PBXProject "BillionClicks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56EF1B51667122500D499A1 /* Debug */,
+				F56EF1B61667122500D499A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56EF1B71667122500D499A1 /* Build configuration list for PBXNativeTarget "BillionClicks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56EF1B81667122500D499A1 /* Debug */,
+				F56EF1B91667122500D499A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F56EF1BA1667122500D499A1 /* Build configuration list for PBXNativeTarget "BillionClicksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56EF1BB1667122500D499A1 /* Debug */,
+				F56EF1BC1667122500D499A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F56EF1781667122500D499A1 /* Project object */;
+}
